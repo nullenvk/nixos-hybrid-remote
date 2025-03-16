@@ -52,8 +52,7 @@ in {
 
     hardware.opengl = {
       enable = true;
-      driSupport = true;
-      driSupport32Bit = true;
+      enable32bit = true;
     };
 
     # Enable the KDE Plasma Desktop Environment.
