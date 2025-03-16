@@ -7,7 +7,7 @@
 
   outputs = { self, nixpkgs }: {
     nixosModules = {
-      hybrid-remote = import ./module.nix
+      hybrid-remote = import ./module.nix;
     };
   };
 }
