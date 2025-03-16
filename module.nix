@@ -50,9 +50,9 @@ in {
     # You can disable this if you're only using the Wayland session.
     services.xserver.enable = true;
 
-    hardware.opengl = {
+    hardware.graphics= {
       enable = true;
-      enable32bit = true;
+      enable32Bit = true;
     };
 
     # Enable the KDE Plasma Desktop Environment.
